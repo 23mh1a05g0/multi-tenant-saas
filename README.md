@@ -72,3 +72,8 @@ Detailed documentation can be found in [docs/API.md](docs/API.md).
 - `database/` - Migrations and Seed data
 - `docs/` - Project documentation
 - `docker-compose.yml` - Docker orchestration config
+
+
+## Demo Video Link
+
+https://drive.google.com/file/d/1-okWAQjV5rsP74xxCxKm5iKXAmRybxjo/view?usp=sharing
