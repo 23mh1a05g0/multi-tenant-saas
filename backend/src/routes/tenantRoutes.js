@@ -9,7 +9,6 @@ import {
 
 const router = express.Router();
 
-/* Tenant Admin OR Super Admin */
 router.get("/:tenantId", authenticate, getTenantById);
 router.put("/:tenantId", authenticate, updateTenant);
 
