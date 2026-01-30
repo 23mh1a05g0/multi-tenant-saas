@@ -2,9 +2,9 @@ import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import pool from "../config/db.js";
 
-/* ===============================
+/* =====
    REGISTER TENANT
-================================ */
+ */
 export const registerTenant = async (req, res) => {
   const {
     tenantName,
