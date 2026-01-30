@@ -1,9 +1,9 @@
 import pool from "../config/db.js";
 import auditLog from "../utils/auditLogger.js";
 
-/* ===============================
+/* ==========
    CREATE TASK (API 16)
-================================ */
+==============*/
 export const createTask = async (req, res) => {
   const { projectId } = req.params;
   const { title, description, assignedTo, priority = "medium", dueDate } = req.body;
