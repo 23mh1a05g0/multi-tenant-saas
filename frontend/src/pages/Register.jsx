@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 function Register() {
   const navigate = useNavigate();
   const [acceptTerms, setAcceptTerms] = useState(false);
-
+//
   const [form, setForm] = useState({
     tenantName: "",
     subdomain: "",
