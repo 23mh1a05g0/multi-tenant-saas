@@ -12,7 +12,7 @@ import {
   Calendar,
   User
 } from "lucide-react";
-
+//
 function ProjectDetails() {
   const { projectId } = useParams();
 
