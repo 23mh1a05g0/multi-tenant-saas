@@ -9,7 +9,7 @@ const tenantMiddleware = (req, res, next) => {
       message: "Tenant access denied",
     });
   }
-
+//
   next();
 };
 
