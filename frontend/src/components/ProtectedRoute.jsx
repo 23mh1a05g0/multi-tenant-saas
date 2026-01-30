@@ -7,7 +7,7 @@ function ProtectedRoute({ children }) {
   if (loading) {
     return <div style={{ textAlign: "center" }}>Checking session...</div>;
   }
-
+//
   if (!user) {
     return <Navigate to="/login" replace />;
   }
