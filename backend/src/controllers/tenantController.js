@@ -1,9 +1,9 @@
 import pool from "../config/db.js";
 import auditLog from "../utils/auditLogger.js";
 
-/* ===============================
+/* ============
    GET TENANT DETAILS (API 5)
-================================ */
+=============== */
 export const getTenantById = async (req, res) => {
   const { tenantId } = req.params;
   const user = req.user;
