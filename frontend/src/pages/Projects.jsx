@@ -10,7 +10,7 @@ function Projects() {
 
   const [projects, setProjects] = useState([]);
   const [error, setError] = useState("");
-
+//
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
 
