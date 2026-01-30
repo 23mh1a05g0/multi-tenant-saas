@@ -1,9 +1,9 @@
 import pool from "../config/db.js";
 import auditLog from "../utils/auditLogger.js";
 
-/* ===============================
+/* =========
    CREATE PROJECT (API 12)
-================================ */
+============ */
 export const createProject = async (req, res) => {
   const { name, description, status = "active" } = req.body;
   const { tenantId, userId } = req.user;
