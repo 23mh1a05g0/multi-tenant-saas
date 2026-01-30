@@ -9,7 +9,7 @@ import projectRoutes from "./routes/projectRoutes.js";
 import taskRoutes from "./routes/taskRoutes.js";
 import pool from "./config/db.js";
 import initDb from "./utils/initDb.js";
-
+//
 dotenv.config();
 
 const app = express();
